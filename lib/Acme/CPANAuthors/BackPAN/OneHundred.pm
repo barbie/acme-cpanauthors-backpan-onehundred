@@ -38,8 +38,8 @@ use Acme::CPANAuthors::Register (
     'FAYLAND'       => 'Fayland Lin',
     'MRAMBERG'      => 'Marcus Ramberg',
     'PEVANS'        => 'Paul Evans',
-    'MLEHMANN'      => 'Marc Lehmann',
     'BARBIE'        => 'Barbie',
+    'MLEHMANN'      => 'Marc Lehmann',
     'SALVA'         => 'Salvador Fandino Garcia',
     'SZABGAB'       => 'Gabor Szabo',
     'LEOCHARRE'     => 'Leo Charre',
@@ -63,7 +63,7 @@ __END__
 
 =head1 NAME
 
-Acme::CPANAuthors::BackPAN::OneHundred - Remembering our fallen heroes
+Acme::CPANAuthors::BackPAN::OneHundred - The CPAN Authors who have 100+ distributions on BackPAN
 
 =head1 DESCRIPTION
 
@@ -99,7 +99,7 @@ See L<http://backpan.cpantesters.org>.
   13.  176  INGY          Ingy dot Net
   14.  172  BOBTFISH      Tomas Doran
   15.  161  NUFFIN        Yuval Kogman
-  16.  137  ETHER         Karen Etheridge
+  16.  138  ETHER         Karen Etheridge
   17.  137  DMAKI         Daisuke Maki
   18.  135  GUGOD         Liu Kang Min
   19.  134  DROLSKY       Dave Rolsky
@@ -113,14 +113,14 @@ See L<http://backpan.cpantesters.org>.
   27.  111  FAYLAND       Fayland Lin
   28.  110  MRAMBERG      Marcus Ramberg
   29.  109  PEVANS        Paul Evans
-  30.  106  MLEHMANN      Marc Lehmann
-  31.  106  BARBIE        Barbie
+  30.  107  BARBIE        Barbie
+  31.  106  MLEHMANN      Marc Lehmann
   32.  106  SALVA         Salvador Fandino Garcia
   33.  104  SZABGAB       Gabor Szabo
   34.  101  LEOCHARRE     Leo Charre
   35.  101  DMUEY         Daniel Muey
 
-List last updated: 2014-05-31T05:34:43
+List last updated: 2014-06-01T07:48:11
 
 =head1 MAINTENANCE
 

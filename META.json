@@ -1,7 +1,7 @@
 {
     "name": "Acme-CPANAuthors-BackPAN-OneHundred",
     "version": "1.00",
-    "abstract": "The CPAN Authors who currently have 100 or more distributions on CPAN",
+    "abstract": "The CPAN Authors who have 100+ distributions on BackPAN",
     "author": [
         "Barbie (BARBIE) <barbie@cpan.org>"
     ],
