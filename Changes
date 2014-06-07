@@ -2,6 +2,7 @@ Revision history for Acme-CPANAuthors-BackPAN-OneHundred
 ========================================================
 
         - fix path to GitHub repo.
+        - backup previous list (in the event we need to rerun).
 
 1.00    2014-06-01
         - First version.

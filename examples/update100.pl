@@ -225,6 +225,7 @@ for my $template (@files) {
 }
 
 # now store new data
+system("cp data/backpan100.csv data/backpan100.old.csv ");
 system("mv backpan100.csv data");
 
 if($options{build}) {
@@ -267,4 +268,3 @@ http://rt.cpan.org/Public/Dist/Display.html?Name=Acme-CPANAuthors-BackPAN-OneHun
   modify it under the Artistic Licence v2.
 
 =cut
-
