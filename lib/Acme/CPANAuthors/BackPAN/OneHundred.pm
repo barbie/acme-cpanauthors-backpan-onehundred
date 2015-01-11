@@ -4,7 +4,7 @@ use warnings;
 
 {
     no strict "vars";
-    $VERSION = "1.04";
+    $VERSION = "1.05";
 }
 
 use Acme::CPANAuthors::Register (
@@ -33,6 +33,7 @@ use Acme::CPANAuthors::Register (
     'MRAMBERG'      => 'Marcus Ramberg',
     'NEILB'         => 'Neil Bowers',
     'NUFFIN'        => 'Yuval Kogman',
+    'PERLANCAR'     => 'perlancar',
     'PEVANS'        => 'Paul Evans',
     'RJBS'          => 'Ricardo SIGNES',
     'RSAVAGE'       => 'Ron Savage',
@@ -86,43 +87,44 @@ See L<http://backpan.cpantesters.org>.
 =head1 THE AUTHORS
 
    1.  507  SHARYANTO     Steven Haryanto
-   2.  312  TOBYINK       Toby Inkster
-   3.  291  RJBS          Ricardo SIGNES
-   4.  287  ADAMK         Adam Kennedy
-   5.  269  ZOFFIX        Zoffix Znet
-   6.  251  TOKUHIROM     Tokuhiro Matsuno
-   7.  230  MIYAGAWA      Tatsuhiko Miyagawa
-   8.  211  BINGOS        Chris Williams
-   9.  207  FLORA         Florian Ragwitz
-  10.  194  INGY          Ingy dot Net
-  11.  189  SMUELLER      Steffen Mueller
-  12.  182  MARCEL        Marcel Gruenauer
-  13.  180  DAGOLDEN      David Golden
-  14.  172  BOBTFISH      Tomas Doran
-  15.  161  NUFFIN        Yuval Kogman
-  16.  154  ETHER         Karen Etheridge
-  17.  149  KENTNL        Kent Fredric
-  18.  139  DROLSKY       Dave Rolsky
-  19.  137  DMAKI         Daisuke Maki
-  20.  135  GUGOD         Liu Kang Min
-  21.  127  BDFOY         brian d foy
-  22.  125  AUTRIJUS      Audrey Tang
-  23.  124  BARBIE        Barbie
-  24.  123  RSAVAGE       Ron Savage
-  25.  121  SIMON         Simon Cozens
-  26.  120  PEVANS        Paul Evans
-  27.  115  FAYLAND       Fayland Lin
-  28.  113  SHLOMIF       Shlomi Fish
-  29.  111  LBROCARD      Leon Brocard
-  30.  110  MRAMBERG      Marcus Ramberg
-  31.  110  SZABGAB       Gabor Szabo
-  32.  107  SALVA         Salvador Fandino Garcia
-  33.  106  MLEHMANN      Marc Lehmann
-  34.  106  NEILB         Neil Bowers
-  35.  104  DMUEY         Daniel Muey
-  36.  101  LEOCHARRE     Leo Charre
+   2.  313  TOBYINK       Toby Inkster
+   3.  296  PERLANCAR     perlancar
+   4.  292  RJBS          Ricardo SIGNES
+   5.  287  ADAMK         Adam Kennedy
+   6.  269  ZOFFIX        Zoffix Znet
+   7.  251  TOKUHIROM     Tokuhiro Matsuno
+   8.  230  MIYAGAWA      Tatsuhiko Miyagawa
+   9.  214  BINGOS        Chris Williams
+  10.  213  INGY          Ingy dot Net
+  11.  209  FLORA         Florian Ragwitz
+  12.  190  SMUELLER      Steffen Mueller
+  13.  187  DAGOLDEN      David Golden
+  14.  182  MARCEL        Marcel Gruenauer
+  15.  173  ETHER         Karen Etheridge
+  16.  172  BOBTFISH      Tomas Doran
+  17.  161  NUFFIN        Yuval Kogman
+  18.  158  KENTNL        Kent Fredric
+  19.  144  DROLSKY       Dave Rolsky
+  20.  137  DMAKI         Daisuke Maki
+  21.  136  GUGOD         Liu Kang Min
+  22.  128  BARBIE        Barbie
+  23.  128  BDFOY         brian d foy
+  24.  127  PEVANS        Paul Evans
+  25.  126  RSAVAGE       Ron Savage
+  26.  125  AUTRIJUS      Audrey Tang
+  27.  121  SIMON         Simon Cozens
+  28.  120  FAYLAND       Fayland Lin
+  29.  118  SZABGAB       Gabor Szabo
+  30.  114  SHLOMIF       Shlomi Fish
+  31.  111  LBROCARD      Leon Brocard
+  32.  111  NEILB         Neil Bowers
+  33.  110  MRAMBERG      Marcus Ramberg
+  34.  108  SALVA         Salvador Fandino Garcia
+  35.  106  DMUEY         Daniel Muey
+  36.  106  MLEHMANN      Marc Lehmann
+  37.  101  LEOCHARRE     Leo Charre
 
-List last updated: 2014-10-04T05:38:47
+List last updated: 2015-01-09T05:57:08
 
 =head1 MAINTENANCE
 
@@ -173,7 +175,7 @@ Thanks to Kenichi Ishigaki for writing C<Acme::CPANAuthors>.
 
 =head1 COPYRIGHT & LICENSE
 
-  Copyright 2014 Barbie for Miss Barbell Productions.
+  Copyright 2014-2015 Barbie for Miss Barbell Productions.
 
   This distribution is free software; you can redistribute it and/or
   modify it under the Artistic License 2.0.
