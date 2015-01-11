@@ -2,7 +2,7 @@
 use strict;
 $|++;
 
-my $VERSION = '1.01';
+my $VERSION = '1.05';
 
 #----------------------------------------------------------------------------
 
@@ -70,16 +70,18 @@ my %groups = (
 # -------------------------------------
 # Program
 
-GetOptions(\%options, 'build', 'release') or die "Usage: $0 [--build] [--release]\n";
+GetOptions(\%options, 'local', 'build', 'release') or die "Usage: $0 [--local] [--build] [--release]\n";
 
 my $base = dirname($0);
 chdir($base);
 #print "dir=$base\n";
 
-my $mech = WWW::Mechanize->new();
-my $source = 'http://stats.cpantesters.org/stats/backpan100.csv';
-my $target = basename($source);
-$mech->mirror($source,$target);
+unless($options{local}) {
+    my $mech = WWW::Mechanize->new();
+    my $source = 'http://stats.cpantesters.org/stats/backpan100.csv';
+    my $target = basename($source);
+    $mech->mirror($source,$target);
+}
 
 # read old file
 my $inx = 0;
