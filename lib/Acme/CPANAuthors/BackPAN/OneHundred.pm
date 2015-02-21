@@ -4,7 +4,7 @@ use warnings;
 
 {
     no strict "vars";
-    $VERSION = "1.05";
+    $VERSION = "1.06";
 }
 
 use Acme::CPANAuthors::Register (
@@ -41,6 +41,7 @@ use Acme::CPANAuthors::Register (
     'SHARYANTO'     => 'Steven Haryanto',
     'SHLOMIF'       => 'Shlomi Fish',
     'SIMON'         => 'Simon Cozens',
+    'SKIM'          => 'Michal Spacek',
     'SMUELLER'      => 'Steffen Mueller',
     'SZABGAB'       => 'Gabor Szabo',
     'TOBYINK'       => 'Toby Inkster',
@@ -87,8 +88,8 @@ See L<http://backpan.cpantesters.org>.
 =head1 THE AUTHORS
 
    1.  507  SHARYANTO     Steven Haryanto
-   2.  313  TOBYINK       Toby Inkster
-   3.  296  PERLANCAR     perlancar
+   2.  316  PERLANCAR     perlancar
+   3.  313  TOBYINK       Toby Inkster
    4.  292  RJBS          Ricardo SIGNES
    5.  287  ADAMK         Adam Kennedy
    6.  269  ZOFFIX        Zoffix Znet
@@ -98,33 +99,34 @@ See L<http://backpan.cpantesters.org>.
   10.  213  INGY          Ingy dot Net
   11.  209  FLORA         Florian Ragwitz
   12.  190  SMUELLER      Steffen Mueller
-  13.  187  DAGOLDEN      David Golden
+  13.  188  DAGOLDEN      David Golden
   14.  182  MARCEL        Marcel Gruenauer
-  15.  173  ETHER         Karen Etheridge
+  15.  174  ETHER         Karen Etheridge
   16.  172  BOBTFISH      Tomas Doran
   17.  161  NUFFIN        Yuval Kogman
-  18.  158  KENTNL        Kent Fredric
-  19.  144  DROLSKY       Dave Rolsky
-  20.  137  DMAKI         Daisuke Maki
-  21.  136  GUGOD         Liu Kang Min
+  18.  159  KENTNL        Kent Fredric
+  19.  147  DROLSKY       Dave Rolsky
+  20.  138  GUGOD         Liu Kang Min
+  21.  137  DMAKI         Daisuke Maki
   22.  128  BARBIE        Barbie
   23.  128  BDFOY         brian d foy
-  24.  127  PEVANS        Paul Evans
-  25.  126  RSAVAGE       Ron Savage
+  24.  128  PEVANS        Paul Evans
+  25.  127  RSAVAGE       Ron Savage
   26.  125  AUTRIJUS      Audrey Tang
   27.  121  SIMON         Simon Cozens
   28.  120  FAYLAND       Fayland Lin
   29.  118  SZABGAB       Gabor Szabo
   30.  114  SHLOMIF       Shlomi Fish
-  31.  111  LBROCARD      Leon Brocard
-  32.  111  NEILB         Neil Bowers
+  31.  113  NEILB         Neil Bowers
+  32.  111  LBROCARD      Leon Brocard
   33.  110  MRAMBERG      Marcus Ramberg
   34.  108  SALVA         Salvador Fandino Garcia
-  35.  106  DMUEY         Daniel Muey
-  36.  106  MLEHMANN      Marc Lehmann
-  37.  101  LEOCHARRE     Leo Charre
+  35.  107  MLEHMANN      Marc Lehmann
+  36.  106  DMUEY         Daniel Muey
+  37.  104  SKIM          Michal Spacek
+  38.  101  LEOCHARRE     Leo Charre
 
-List last updated: 2015-01-09T05:57:08
+List last updated: 2015-01-24T17:56:48
 
 =head1 MAINTENANCE
 
