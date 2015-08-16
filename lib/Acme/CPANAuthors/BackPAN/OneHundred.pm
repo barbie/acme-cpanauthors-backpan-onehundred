@@ -4,7 +4,7 @@ use warnings;
 
 {
     no strict "vars";
-    $VERSION = "1.07";
+    $VERSION = "1.08";
 }
 
 use Acme::CPANAuthors::Register (
@@ -28,9 +28,10 @@ use Acme::CPANAuthors::Register (
     'KENTNL'        => 'Kent Fredric',
     'LBROCARD'      => 'Leon Brocard',
     'LEOCHARRE'     => 'Leo Charre',
+    'MANWAR'        => 'Mohammad S Anwar',
     'MARCEL'        => 'Marcel Gruenauer',
     'MIYAGAWA'      => 'Tatsuhiko Miyagawa',
-    'MLEHMANN'      => 'Marc Lehmann',
+    'MLEHMANN'      => '???',
     'MRAMBERG'      => 'Marcus Ramberg',
     'NEILB'         => 'Neil Bowers',
     'NUFFIN'        => 'Yuval Kogman',
@@ -47,7 +48,7 @@ use Acme::CPANAuthors::Register (
     'SMUELLER'      => 'Steffen Mueller',
     'SZABGAB'       => 'Gabor Szabo',
     'TOBYINK'       => 'Toby Inkster',
-    'TOKUHIROM'     => 'Tokuhiro Matsuno',
+    'TOKUHIROM'     => '???',
     'ZOFFIX'        => 'Zoffix Znet',
 
 );
@@ -90,47 +91,48 @@ See L<http://backpan.cpantesters.org>.
 =head1 THE AUTHORS
 
    1.  507  SHARYANTO     Steven Haryanto
-   2.  357  PERLANCAR     perlancar
+   2.  497  PERLANCAR     perlancar
    3.  313  TOBYINK       Toby Inkster
-   4.  294  RJBS          Ricardo SIGNES
+   4.  302  RJBS          Ricardo SIGNES
    5.  287  ADAMK         Adam Kennedy
-   6.  273  ZOFFIX        Zoffix Znet
-   7.  251  TOKUHIROM     Tokuhiro Matsuno
-   8.  232  MIYAGAWA      Tatsuhiko Miyagawa
-   9.  216  INGY          Ingy dot Net
-  10.  214  BINGOS        Chris Williams
-  11.  209  FLORA         Florian Ragwitz
-  12.  190  SMUELLER      Steffen Mueller
-  13.  189  DAGOLDEN      David Golden
-  14.  182  MARCEL        Marcel Gruenauer
-  15.  177  ETHER         Karen Etheridge
+   6.  279  ZOFFIX        Zoffix Znet
+   7.  251  TOKUHIROM     ???
+   8.  239  MIYAGAWA      Tatsuhiko Miyagawa
+   9.  218  INGY          Ingy dot Net
+  10.  215  BINGOS        Chris Williams
+  11.  210  FLORA         Florian Ragwitz
+  12.  205  ETHER         Karen Etheridge
+  13.  194  DAGOLDEN      David Golden
+  14.  192  SMUELLER      Steffen Mueller
+  15.  182  MARCEL        Marcel Gruenauer
   16.  172  BOBTFISH      Tomas Doran
-  17.  161  KENTNL        Kent Fredric
+  17.  167  KENTNL        Kent Fredric
   18.  161  NUFFIN        Yuval Kogman
-  19.  147  DROLSKY       Dave Rolsky
+  19.  152  DROLSKY       Dave Rolsky
   20.  138  GUGOD         Liu Kang Min
   21.  137  DMAKI         Daisuke Maki
-  22.  132  RSAVAGE       Ron Savage
-  23.  130  BARBIE        Barbie
-  24.  129  BDFOY         brian d foy
-  25.  129  PEVANS        Paul Evans
+  22.  136  PEVANS        Paul Evans
+  23.  134  BARBIE        Barbie
+  24.  134  RSAVAGE       Ron Savage
+  25.  131  BDFOY         brian d foy
   26.  125  AUTRIJUS      Audrey Tang
-  27.  121  FAYLAND       Fayland Lin
-  28.  121  SIMON         Simon Cozens
-  29.  118  SZABGAB       Gabor Szabo
-  30.  116  SKIM          Michal Spacek
-  31.  115  SHLOMIF       Shlomi Fish
-  32.  114  NEILB         Neil Bowers
-  33.  111  LBROCARD      Leon Brocard
-  34.  110  MRAMBERG      Marcus Ramberg
-  35.  108  SALVA         Salvador Fandino Garcia
-  36.  107  DMUEY         Daniel Muey
-  37.  107  MLEHMANN      Marc Lehmann
-  38.  101  GETTY         Torsten Raudssus
-  39.  101  LEOCHARRE     Leo Charre
-  40.  101  PLICEASE      Graham Ollis
+  27.  124  NEILB         Neil Bowers
+  28.  121  FAYLAND       Fayland Lin
+  29.  121  SIMON         Simon Cozens
+  30.  121  SKIM          Michal Spacek
+  31.  120  SZABGAB       Gabor Szabo
+  32.  117  SHLOMIF       Shlomi Fish
+  33.  113  PLICEASE      Graham Ollis
+  34.  111  LBROCARD      Leon Brocard
+  35.  110  MLEHMANN      ???
+  36.  110  MRAMBERG      Marcus Ramberg
+  37.  109  DMUEY         Daniel Muey
+  38.  108  SALVA         Salvador Fandino Garcia
+  39.  104  GETTY         Torsten Raudssus
+  40.  101  LEOCHARRE     Leo Charre
+  41.  100  MANWAR        Mohammad S Anwar
 
-List last updated: 2015-03-22T11:39:41
+List last updated: 2015-08-16T14:12:00
 
 =head1 MAINTENANCE
 
