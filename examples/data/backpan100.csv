@@ -1,43 +1,45 @@
-# DATE: 2015-08-16T14:12:00
+# DATE: 2016-04-22T05:57:08
 #Pause,Count,Name
-SHARYANTO,507,Steven Haryanto
-PERLANCAR,497,perlancar
+PERLANCAR,888,perlancar
+SHARYANTO,510,Steven Haryanto
+PSIXDISTS,479,Perl 6 Modules
 TOBYINK,313,Toby Inkster
-RJBS,302,Ricardo SIGNES
+RJBS,309,Ricardo SIGNES
+ZOFFIX,293,Zoffix Znet
 ADAMK,287,Adam Kennedy
-ZOFFIX,279,Zoffix Znet
 TOKUHIROM,251,???
-MIYAGAWA,239,Tatsuhiko Miyagawa
+MIYAGAWA,240,Tatsuhiko Miyagawa
+ETHER,222,Karen Etheridge
 INGY,218,Ingy dot Net
-BINGOS,215,Chris Williams
+BINGOS,217,Chris Williams
 FLORA,210,Florian Ragwitz
-ETHER,205,Karen Etheridge
-DAGOLDEN,194,David Golden
+JGNI,202,John Imrie
+DAGOLDEN,195,David Golden
 SMUELLER,192,Steffen Mueller
-MARCEL,182,Marcel Gruenauer
+MARCEL,182,???
+KENTNL,174,Kent Fredric
 BOBTFISH,172,Tomas Doran
-KENTNL,167,Kent Fredric
 NUFFIN,161,Yuval Kogman
-DROLSKY,152,Dave Rolsky
+DROLSKY,156,Dave Rolsky
+PEVANS,149,Paul Evans
+RSAVAGE,138,Ron Savage
 GUGOD,138,Liu Kang Min
+NEILB,137,Neil Bowers
+SKIM,137,Michal Spacek
 DMAKI,137,Daisuke Maki
-PEVANS,136,Paul Evans
 BARBIE,134,Barbie
-RSAVAGE,134,Ron Savage
-BDFOY,131,brian d foy
+BDFOY,133,brian d foy
+PLICEASE,126,Graham Ollis
 AUTRIJUS,125,Audrey Tang
-NEILB,124,Neil Bowers
-FAYLAND,121,Fayland Lin
+SHLOMIF,125,Shlomi Fish
+FAYLAND,122,Fayland Lin
+SZABGAB,122,Gabor Szabo
 SIMON,121,Simon Cozens
-SKIM,121,Michal Spacek
-SZABGAB,120,Gabor Szabo
-SHLOMIF,117,Shlomi Fish
-PLICEASE,113,Graham Ollis
+MANWAR,120,Mohammad S Anwar
+MLEHMANN,111,???
+MRAMBERG,111,Marcus Ramberg
+SALVA,111,Salvador Fandino Garcia
 LBROCARD,111,Leon Brocard
-MRAMBERG,110,Marcus Ramberg
-MLEHMANN,110,???
 DMUEY,109,Daniel Muey
-SALVA,108,Salvador Fandino Garcia
-GETTY,104,Torsten Raudssus
+GETTY,105,Torsten Raudssus
 LEOCHARRE,101,Leo Charre
-MANWAR,100,Mohammad S Anwar
