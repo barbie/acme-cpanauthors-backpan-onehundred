@@ -90,7 +90,7 @@ my $file = 'data/backpan100.csv';
 if(my $fh = IO::File->new($file,'r')) {
     while(<$fh>) {
         s/\s+$//;
-        next    if(!$_ or $_ =~ /^#/);
+        next    if(not $_ or $_ =~ /^#/);
         my ($pause,$cnt,$name) = split(/,/);
         next unless($pause);
 
@@ -115,7 +115,7 @@ while(<$fh>) {
         $tvars{WHEN} = $1;
     }
 
-    next    if(!$_ or $_ =~ /^#/);
+    next    if(not $_ or $_ =~ /^#/);
     my ($pause,$cnt,$name) = split(/,/);
     next unless($pause);
 
